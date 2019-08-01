@@ -1,0 +1,167 @@
+Script started on 2019-02-21 02:17:27-0600
+
+INPUT: 
+/home/sydthekid$ cd Desktop 
+/home/sydthekid/Desktop$ pwd
+/home/sydthekid/Desktop
+/home/sydthekid/Desktop$ cd .. 
+/home/sydthekid$ pwd
+/home/sydthekid
+/home/sydthekid$ ls -lh
+
+OUTPUT: 
+total 164K
+-rwxr-xr-x 1 sydthekid sydthekid  13K Feb 21 01:32 a.out
+-rwxr-xr-x 1 sydthekid sydthekid  13K Feb  6 22:33 comein
+drwxr-xr-x 2 sydthekid sydthekid 4.0K Dec 19 21:48 Desktop
+drwxr-xr-x 2 sydthekid sydthekid 4.0K Dec 19 21:48 Documents
+drwxr-xr-x 2 sydthekid sydthekid 4.0K Dec 19 21:48 Downloads
+-rw-r--r-- 1 sydthekid sydthekid 8.8K Dec 19 21:15 examples.desktop
+-rwxr--r-- 1 sydthekid sydthekid  115 Feb 19 10:56 fake.sh
+-rw-r--r-- 1 sydthekid sydthekid    0 Feb 18 23:04 filename1
+-rw-r--r-- 1 sydthekid sydthekid    0 Feb 18 23:04 filename2
+drwxr-xr-x 2 sydthekid sydthekid 4.0K Feb 19 12:08 FinalExam
+-rw-r--r-- 1 sydthekid sydthekid 4.7K Feb 19 12:08 FinalExam.zip
+drwxrwxrwx 2 sydthekid sydthekid 4.0K Feb 19 03:41 final_review_solution
+-rw-rw-r-- 1 sydthekid sydthekid 1.7K Feb  6 22:34 input.c
+drwxr-xr-x 2 sydthekid sydthekid 4.0K Dec 19 21:48 Music
+-rw-r--r-- 1 sydthekid sydthekid 1.7K Feb 21 01:55 newfile.c
+-rwxrw-rw- 1 sydthekid sydthekid  806 Feb 18 22:48 one.sh
+drwxr-xr-x 2 sydthekid sydthekid 4.0K Dec 19 21:48 Pictures
+-rw-r--r-- 1 sydthekid sydthekid 5.5K Feb 21 02:13 ps.out
+drwxr-xr-x 2 sydthekid sydthekid 4.0K Dec 19 21:48 Public
+-rwxr-xr-x 1 sydthekid sydthekid 8.2K Feb  6 22:18 runthis
+-rw-rw-r-- 1 sydthekid sydthekid  258 Feb 14 10:52 script.sh
+-rwxr-xr-x 1 sydthekid sydthekid  13K Feb 21 02:17 techshell
+drwxr-xr-x 2 sydthekid sydthekid 4.0K Dec 19 21:48 Templates
+-rw-r--r-- 1 sydthekid sydthekid 2.8K Feb 21 00:18 test.c
+-rw-r--r-- 1 sydthekid sydthekid  963 Feb 20 22:11 testthis.c
+-r-------- 1 sydthekid sydthekid  919 Feb 18 21:56 two.c
+-rw-r--r-- 1 sydthekid sydthekid    0 Feb 21 02:17 typescript
+drwxr-xr-x 2 sydthekid sydthekid 4.0K Dec 19 21:48 Videos
+-rw-r--r-- 1 sydthekid sydthekid  739 Dec 19 23:27 wc
+/home/sydthekid$ ls -l
+total 164
+-rwxr-xr-x 1 sydthekid sydthekid 13096 Feb 21 01:32 a.out
+-rwxr-xr-x 1 sydthekid sydthekid 12976 Feb  6 22:33 comein
+drwxr-xr-x 2 sydthekid sydthekid  4096 Dec 19 21:48 Desktop
+drwxr-xr-x 2 sydthekid sydthekid  4096 Dec 19 21:48 Documents
+drwxr-xr-x 2 sydthekid sydthekid  4096 Dec 19 21:48 Downloads
+-rw-r--r-- 1 sydthekid sydthekid  8980 Dec 19 21:15 examples.desktop
+-rwxr--r-- 1 sydthekid sydthekid   115 Feb 19 10:56 fake.sh
+-rw-r--r-- 1 sydthekid sydthekid     0 Feb 18 23:04 filename1
+-rw-r--r-- 1 sydthekid sydthekid     0 Feb 18 23:04 filename2
+drwxr-xr-x 2 sydthekid sydthekid  4096 Feb 19 12:08 FinalExam
+-rw-r--r-- 1 sydthekid sydthekid  4798 Feb 19 12:08 FinalExam.zip
+drwxrwxrwx 2 sydthekid sydthekid  4096 Feb 19 03:41 final_review_solution
+-rw-rw-r-- 1 sydthekid sydthekid  1655 Feb  6 22:34 input.c
+drwxr-xr-x 2 sydthekid sydthekid  4096 Dec 19 21:48 Music
+-rw-r--r-- 1 sydthekid sydthekid  1695 Feb 21 01:55 newfile.c
+-rwxrw-rw- 1 sydthekid sydthekid   806 Feb 18 22:48 one.sh
+drwxr-xr-x 2 sydthekid sydthekid  4096 Dec 19 21:48 Pictures
+-rw-r--r-- 1 sydthekid sydthekid  5574 Feb 21 02:13 ps.out
+drwxr-xr-x 2 sydthekid sydthekid  4096 Dec 19 21:48 Public
+-rwxr-xr-x 1 sydthekid sydthekid  8344 Feb  6 22:18 runthis
+-rw-rw-r-- 1 sydthekid sydthekid   258 Feb 14 10:52 script.sh
+-rwxr-xr-x 1 sydthekid sydthekid 13024 Feb 21 02:17 techshell
+drwxr-xr-x 2 sydthekid sydthekid  4096 Dec 19 21:48 Templates
+-rw-r--r-- 1 sydthekid sydthekid  2782 Feb 21 00:18 test.c
+-rw-r--r-- 1 sydthekid sydthekid   963 Feb 20 22:11 testthis.c
+-r-------- 1 sydthekid sydthekid   919 Feb 18 21:56 two.c
+-rw-r--r-- 1 sydthekid sydthekid     0 Feb 21 02:17 typescript
+drwxr-xr-x 2 sydthekid sydthekid  4096 Dec 19 21:48 Videos
+-rw-r--r-- 1 sydthekid sydthekid   739 Dec 19 23:27 wc
+/home/sydthekid$ ls /root
+ls: cannot open directory '/root': Permission denied
+/home/sydthekid$ ch  ls -lh final.c
+ls: cannot access 'final.c': No such file or directory
+/home/sydthekid$ ls -lh two.c
+-r-------- 1 sydthekid sydthekid 919 Feb 18 21:56 two.c
+/home/sydthekid$ chmod 4 555 two.c
+/home/sydthekid$ chmod 555 final.c
+chmod: cannot access 'final.c': No such file or directory
+/home/sydthekid$ cd  ps
+  PID TTY          TIME CMD
+23821 pts/1    00:00:00 bash
+23830 pts/1    00:00:00 techshell
+23860 pts/1    00:00:00 techshell
+23861 pts/1    00:00:00 sh
+23862 pts/1    00:00:00 ps
+/home/sydthekid$ whi ere  is ps
+ps: /bin/ps /usr/share/man/man1/ps.1.gz
+/home/sydthekid$ /bin/ps u
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+sydthek+  1081  0.0  0.2 212128  6052 tty2     Ssl+ Feb20   0:00 /usr/l
+sydthek+  1083  1.8  3.6 417060 75156 tty2     Rl+  Feb20   8:14 /usr/l
+sydthek+  1091  0.0  0.6 641416 14004 tty2     Sl+  Feb20   0:01 /usr/l
+sydthek+  1214  6.3 14.5 3045080 296580 tty2   Rl+  Feb20  29:03 /usr/b
+sydthek+  1245  0.1  0.4 362016  8244 tty2     Rl   Feb20   0:48 ibus-d
+sydthek+  1249  0.0  0.3 280748  6452 tty2     Sl   Feb20   0:00 /usr/l
+sydthek+  1251  0.0  0.9 343972 20348 tty2     Sl   Feb20   0:00 /usr/l
+sydthek+  1318  0.0  1.2 798260 24732 tty2     Sl+  Feb20   0:01 /usr/l
+sydthek+  1319  0.0  0.5 349320 10236 tty2     Sl+  Feb20   0:00 /usr/l
+sydthek+  1321  0.0  0.2 423344  5904 tty2     Sl+  Feb20   0:00 /usr/l
+sydthek+  1322  0.0  0.2 275732  5820 tty2     Sl+  Feb20   0:00 /usr/l
+sydthek+  1323  0.0  0.4 452832  9072 tty2     Sl+  Feb20   0:00 /usr/l
+sydthek+  1325  0.0  0.2 377932  5460 tty2     Sl+  Feb20   0:00 /usr/l
+sydthek+  1328  0.0  1.0 494484 21772 tty2     Sl+  Feb20   0:01 /usr/l
+sydthek+  1344  0.0  0.3 332860  7444 tty2     Sl+  Feb20   0:00 /usr/l
+sydthek+  1346  0.0  1.0 428320 21884 tty2     Sl+  Feb20   0:01 /usr/l
+sydthek+  1350  0.0  0.9 343584 20156 tty2     Sl+  Feb20   0:00 /usr/l
+sydthek+  1351  0.0  0.2 278156  5844 tty2     Sl+  Feb20   0:00 /usr/l
+sydthek+  1354  0.0  0.6 469732 12308 tty2     Sl+  Feb20   0:00 /usr/l
+sydthek+  1357  0.0  1.1 807448 23996 tty2     Sl+  Feb20   0:06 /usr/l
+sydthek+  1359  0.0  1.0 497952 20528 tty2     Sl+  Feb20   0:00 /usr/l
+sydthek+  1360  0.0  0.3 364448  6976 tty2     Sl+  Feb20   0:02 /usr/l
+sydthek+  1361  0.0  0.2 278160  5816 tty2     Sl+  Feb20   0:00 /usr/l
+sydthek+  1363  0.0  1.0 792572 20568 tty2     Sl+  Feb20   0:01 /usr/l
+sydthek+  1380  0.0  0.5 508756 12204 tty2     Sl+  Feb20   0:00 /usr/l
+sydthek+  1416  0.0  0.2 271932  6044 tty2     Sl+  Feb20   0:00 /usr/l
+sydthek+  1420  0.0  3.6 809244 74352 tty2     Sl+  Feb20   0:09 nautil
+sydthek+  1467  0.0  0.3 204888  6400 tty2     Sl   Feb20   0:14 /usr/l
+sydthek+  1524  0.0  1.2 594568 25416 tty2     Sl+  Feb20   0:01 update
+sydthek+  1526  0.0  7.2 1128208 148448 tty2   SLl+ Feb20   0:09 /usr/b
+sydthek+  1533  0.0  0.0      0     0 tty2     Z+   Feb20   0:00 [livep
+sydthek+  1625  0.0  0.8 861500 17980 tty2     Sl+  Feb20   0:00 /usr/l
+sydthek+ 22073  0.5 12.7 2114468 259788 tty2   Sl+  Feb20   1:18 /usr/l
+sydthek+ 22148  0.0  6.4 1550680 131588 tty2   Sl+  Feb20   0:08 /usr/l
+sydthek+ 22216  0.2  5.6 1530868 115512 tty2   Sl+  Feb20   0:39 /usr/l
+sydthek+ 22268  1.4  8.8 1746892 180552 tty2   Sl+  Feb20   3:18 /usr/l
+sydthek+ 22314  0.0  3.6 1494308 75132 tty2    Sl+  Feb20   0:00 /usr/l
+sydthek+ 22939  0.0  0.2  29552  4836 pts/0    Ss   00:16   0:00 bash
+sydthek+ 23820  0.0  0.1  29352  2568 pts/0    S+   02:17   0:00 script
+sydthek+ 23821  0.0  0.2  29556  4904 pts/1    Ss   02:17   0:00 bash -
+sydthek+ 23830  0.0  0.0   4508  1588 pts/1    S+   02:17   0:00 ./tech
+sydthek+ 23866  0.0  0.0   4508    84 pts/1    S+   02:19   0:00 ./tech
+sydthek+ 23867  0.0  0.0   4628   780 pts/1    S+   02:19   0:00 sh -c 
+sydthek+ 23868  0.0  0.1  46772  3540 pts/1    R+   02:19   0:00 /bin/p
+/home/sydthekid$ ps u > ps.out
+/home/sydthekid$ wc -l < ps.out
+45
+/home/sydthekid$ wc-  -l < ps.out > wc.out
+/home/sydthekid$ cat wc.out
+45
+/home/sydthekid$ ls
+a.out		  filename2		 Pictures   testthis.c
+comein		  FinalExam		 ps.out     two.c
+Desktop		  FinalExam.zip		 Public     typescript
+Documents	  final_review_solution  runthis    Videos
+Downloads	  input.c		 script.sh  wc
+examples.desktop  Music			 techshell  wc.out
+fake.sh		  newfile.c		 Templates
+filename1	  one.sh		 test.c
+/home/sydthekid$ re m ps.out wc  .out
+/home/sydthekid$ ls
+a.out		  filename1		 newfile.c  Templates
+comein		  filename2		 one.sh     test.c
+Desktop		  FinalExam		 Pictures   testthis.c
+Documents	  FinalExam.zip		 Public     two.c
+Downloads	  final_review_solution  runthis    typescript
+examples.desktop  input.c		 script.sh  Videos
+fake.sh		  Music			 techshell  wc
+/home/sydthekid$ exit
+]0;sydthekid@sydthekid-csc222: ~[01;32msydthekid@sydthekid-csc222[00m:[01;34m~[00m$ r[Kexit
+exit
+
+Script done on 2019-02-21 02:20:49-0600
+
